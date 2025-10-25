@@ -9,7 +9,7 @@
     "react-dom": "^17.0.2"
   },
   "scripts": {
-  "build": "your-build-command" // e.g., "next build", "vite build", etc.
-}
+    "build": "next build"
+  },
   "devDependencies": {}
 }
