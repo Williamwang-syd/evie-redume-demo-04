@@ -1,508 +1,143 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <title>Up Start Finance</title>
-    <meta property="og:title" content="Up Start Finance" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta charset="utf-8" />
-    <meta property="twitter:card" content="summary_large_image" />
+    <title>Home</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="index,follow">
+  <meta name="generator" content="GrapesJS Studio">
+  <style data-project-fonts="true">
+@font-face {
+      font-family: 'Plus Jakarta Sans';
+      src: url('https://fonts.gstatic.com/s/plusjakartasans/v11/LDIoaomQNQcsA88c7O9yZ4KMCoOg4Jo02S2CgOva.woff2');
+      font-weight: 200 800;
+    }
+  
 
-    <style data-tag="reset-style-sheet">
-      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}pre {  white-space: normal;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
-    </style>
-    <style data-tag="default-style-sheet">
-      html {
-        font-family: "Titillium Web";
-        font-size: 16px;
-      }
+    @font-face {
+      font-family: 'Plus Jakarta Sans';
+      src: url('https://fonts.gstatic.com/s/plusjakartasans/v11/LDIuaomQNQcsA88c7O9yZ4KMCoOg4Koz0yyghfvaV-E.woff2');
+      font-style: italic;
+font-weight: 200 800;
+    }
+  
 
-      body {
-        font-weight: 400;
-        font-style:normal;
-        text-decoration: none;
-        text-transform: none;
-        letter-spacing: normal;
-        line-height: 1.15;
-        color: var(--dl-color-scheme-green100);
-        background: var(--dl-color-scheme-yellow20);
+    @font-face {
+      font-family: Manrope;
+      src: url('https://fonts.gstatic.com/s/manrope/v19/xn7gYHE41ni1AdIRsgW7S9XdZN8.woff2');
+      font-weight: 200 800;
+    }
+  
 
-        fill: var(--dl-color-scheme-green100);
-      }
-    </style>
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/animate.css@4.1.1/animate.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
-    />
-    <!--This is the head section-->
-    <!-- <script type="text/javascript"> ... </script> -->
+    @font-face {
+      font-family: Lato;
+      src: url('https://fonts.gstatic.com/s/lato/v24/S6u8w4BMUTPHh30wXiWrFCbw7A.woff2');
+      font-weight: 100;
+    }
+  
+
+    @font-face {
+      font-family: Lato;
+      src: url('https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh7USewqFGC_p9dw.woff2');
+      font-weight: 300;
+    }
+  
+
+    @font-face {
+      font-family: Lato;
+      src: url('https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh6UVewqFGC_p9dw.woff2');
+      font-weight: 700;
+    }
+  
+
+    @font-face {
+      font-family: Lato;
+      src: url('https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh50XewqFGC_p9dw.woff2');
+      font-weight: 900;
+    }
+  
+
+    @font-face {
+      font-family: Lato;
+      src: url('https://fonts.gstatic.com/s/lato/v24/S6u-w4BMUTPHjxsIPy-qNiPg7MU0.woff2');
+      font-style: italic;
+font-weight: 100;
+    }
+  
+
+    @font-face {
+      font-family: Lato;
+      src: url('https://fonts.gstatic.com/s/lato/v24/S6u_w4BMUTPHjxsI9w2PGQ3s5dwt7w.woff2');
+      font-style: italic;
+font-weight: 300;
+    }
+  
+
+    @font-face {
+      font-family: Lato;
+      src: url('https://fonts.gstatic.com/s/lato/v24/S6uyw4BMUTPHvxw6XweuBCY.woff2');
+      font-weight: 400;
+    }
+  
+
+    @font-face {
+      font-family: Lato;
+      src: url('https://fonts.gstatic.com/s/lato/v24/S6u8w4BMUTPHjxswXiWrFCbw7A.woff2');
+      font-style: italic;
+font-weight: 400;
+    }
+  
+
+    @font-face {
+      font-family: Lato;
+      src: url('https://fonts.gstatic.com/s/lato/v24/S6u_w4BMUTPHjxsI5wqPGQ3s5dwt7w.woff2');
+      font-style: italic;
+font-weight: 700;
+    }
+  
+
+    @font-face {
+      font-family: Lato;
+      src: url('https://fonts.gstatic.com/s/lato/v24/S6u_w4BMUTPHjxsI3wiPGQ3s5dwt7w.woff2');
+      font-style: italic;
+font-weight: 900;
+    }
+</style>
+  <link rel="stylesheet" href="./style.css">
   </head>
-  <body>
-    <link rel="stylesheet" href="./style.css" />
-    <div>
-      <link href="./index.css" rel="stylesheet" />
-
-      <div class="home-container10">
-        <div class="home-navbar navbar-container">
-          <div class="max-width">
-            <header data-thq="thq-navbar" class="home-navbar-interactive">
-              <div class="home-logo1">
-                <img
-                  alt="image"
-                  src="public/group%202.svg"
-                  class="home-image1"
-                />
-                <span>Redume</span>
-              </div>
-              <div data-thq="thq-navbar-nav" class="home-desktop-menu">
-                <div class="home-links1">
-                  <span class="home-text11 navbarLink">Home</span>
-                  <a
-                    href="https://thankful-tree-0f734cf00.3.azurestaticapps.net/jobs.html"
-                    class="home-link1 navbarLink"
-                  >
-                    Jobs
-                  </a>
-                  <span class="home-text12 navbarLink">My Profile</span>
-                  <a
-                    href="https://thankful-tree-0f734cf00.3.azurestaticapps.net/about.html"
-                    class="home-link2 navbarLink"
-                  >
-                    About Us
-                  </a>
-                  <button class="button-secondary button">Log in</button>
-                </div>
-              </div>
-              <div data-thq="thq-burger-menu" class="home-burger-menu">
-                <svg viewBox="0 0 1024 1024" class="home-icon10">
-                  <path
-                    d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
-                  ></path>
-                </svg>
-              </div>
-              <div data-thq="thq-mobile-menu" class="home-mobile-menu">
-                <div class="home-nav">
-                  <div class="home-top">
-                    <div class="home-logo2">
-                      <img
-                        alt="image"
-                        src="public/group%202.svg"
-                        class="home-image2"
-                      />
-                      <span class="brandName">
-                        <span class="home-text14">UP -</span>
-                        <span>START</span>
-                      </span>
-                    </div>
-                    <div data-thq="thq-close-menu" class="home-close-menu">
-                      <svg viewBox="0 0 1024 1024" class="home-icon12">
-                        <path
-                          d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
-                        ></path>
-                      </svg>
-                    </div>
-                  </div>
-                  <nav class="home-links2">
-                    <span class="home-text16 navbarLink">About</span>
-                    <span class="home-text17 navbarLink">Features</span>
-                    <span class="home-text18 navbarLink">Pricing</span>
-                    <span class="home-text19 navbarLink">Team</span>
-                    <span class="home-text20 navbarLink">Blog</span>
-                  </nav>
-                  <div class="home-buttons">
-                    <button class="button-secondary button">Log in</button>
-                    <button class="button button-primary">Get started</button>
-                  </div>
-                </div>
-                <div>
-                  <svg viewBox="0 0 950.8571428571428 1024" class="home-icon14">
-                    <path
-                      d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"
-                    ></path></svg
-                  ><svg
-                    viewBox="0 0 877.7142857142857 1024"
-                    class="home-icon16"
-                  >
-                    <path
-                      d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"
-                    ></path></svg
-                  ><svg
-                    viewBox="0 0 602.2582857142856 1024"
-                    class="home-icon18"
-                  >
-                    <path
-                      d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"
-                    ></path>
-                  </svg>
-                </div>
-              </div>
-            </header>
-          </div>
-        </div>
-        <div class="hero-container section-container">
-          <div class="home-max-width2 max-width">
-            <div class="home-content1">
-              <h1 class="home-title1">Real local jobs for young Australian</h1>
-              <span class="home-description">
-                Registered and verified local businesses looking for talent
-                young Australian
-              </span>
-              <div class="home-container11">
-                <button class="button button-gradient">
-                  Search jobs, company and skills
-                </button>
-                <button class="button button-transparent">Log in</button>
-              </div>
-            </div>
-            <div class="home-image3">
-              <img
-                alt="image"
-                src="public/union-400w.png"
-                class="home-graphic-top"
-              />
-              <img
-                alt="image"
-                src="public/group%2018-1200w.png"
-                class="home-image4"
-              />
-            </div>
-          </div>
-        </div>
-        <div class="section-container">
-          <div class="home-max-width3 max-width">
-            <div class="home-image5"></div>
-            <div class="home-content2">
-              <span class="home-text21 beforeHeading">how it works</span>
-              <h1 class="home-text22">Search, Login and Apply.</h1>
-              <div class="home-container12">
-                <button class="button-secondary button bg-transparent">
-                  Learn more
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="home-section2 section-container">
-          <div class="home-max-width4 max-width">
-            <div class="home-content3">
-              <span class="home-text23">New job posted</span>
-              <h1 class="home-text24">Retail Assistant (Weekend Shifts)</h1>
-              <span class="home-text25">
-                <span>Location: Sydney CBD | Pay: $22/hr</span>
-                <br />
-                <span>
-                  Assist customers, restock shelves, and keep the store tidy.
-                  Great for students with strong communication skills.
-                </span>
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                amet sint. Velit officia consequat duis enim velit mollit.
-                Exercitation veniam consequat sunt nostrud amet.
-              </span>
-              <div class="home-container13">
-                <button class="button-secondary button bg-transparent">
-                  See details
-                </button>
-              </div>
-            </div>
-            <div class="home-image6"></div>
-          </div>
-        </div>
-        <div class="home-section3 section-container">
-          <div class="home-max-width5 max-width">
-            <div class="home-image7">
-              <img
-                alt="image"
-                src="public/jc-gellidon-fnc3yctccoi-unsplash%2014%20%5B1%5D-1200w.png"
-                class="home-hero-image"
-              />
-            </div>
-            <div class="home-content4">
-              <span class="home-text29 beforeHeading">get started</span>
-              <h1 class="home-text30">Apply the jobs today</h1>
-              <div class="home-step1">
-                <div class="home-number1">
-                  <span class="home-text31">1</span>
-                </div>
-                <div class="home-container14">
-                  <span class="home-title2">
-                    Search the jobs you are interested in.
-                  </span>
-                </div>
-              </div>
-              <div class="home-step2">
-                <div class="home-number2">
-                  <span class="home-text32">2</span>
-                </div>
-                <div class="home-container15">
-                  <span class="home-title3">Create your free account</span>
-                </div>
-              </div>
-              <div class="home-step3">
-                <div class="home-number3">
-                  <span class="home-text33">3</span>
-                </div>
-                <div class="home-container16">
-                  <span class="home-title4">
-                    Apply the jobs and see the realtime progress in my
-                    application.
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="home-section4 section-container">
-          <div class="home-max-width6 max-width">
-            <div class="home-faq">
-              <div class="home-questions">
-                <span class="home-text34 beforeHeading">faq</span>
-                <h1 class="home-text35">
-                  <span class="home-text36">Frequently Asked</span>
-                  <br />
-                  <span class="home-text38">Questions</span>
-                </h1>
-                <div data-role="Accordion" class="question">
-                  <div data-type="accordion-header" class="home-trigger1">
-                    <span class="home-text39">
-                      Is this a Free or Paid service?
-                    </span>
-                    <svg viewBox="0 0 1024 1024" class="home-icon20">
-                      <path
-                        d="M810 554h-256v256h-84v-256h-256v-84h256v-256h84v256h256v84z"
-                      ></path>
-                    </svg>
-                  </div>
-                  <div data-type="accordion-content" class="question-content">
-                    <span class="home-text40">
-                      Amet minim mollit non deserunt ullamco est sit aliqua
-                      dolor do amet sint. Velit officia consequat duis enim
-                      velit mollit.
-                    </span>
-                  </div>
-                </div>
-                <div data-role="Accordion" class="question">
-                  <div data-type="accordion-header" class="home-trigger2">
-                    <span class="home-text41">
-                      Do you operate in Australia?
-                    </span>
-                    <svg viewBox="0 0 1024 1024" class="home-icon22">
-                      <path
-                        d="M810 554h-256v256h-84v-256h-256v-84h256v-256h84v256h256v84z"
-                      ></path>
-                    </svg>
-                  </div>
-                  <div data-type="accordion-content" class="question-content">
-                    <span class="home-text42">
-                      Amet minim mollit non deserunt ullamco est sit aliqua
-                      dolor do amet sint. Velit officia consequat duis enim
-                      velit mollit.
-                    </span>
-                  </div>
-                </div>
-                <div data-role="Accordion" class="question">
-                  <div data-type="accordion-header" class="home-trigger3">
-                    <span class="home-text43">Are the jobs safe to apply?</span>
-                    <svg viewBox="0 0 1024 1024" class="home-icon24">
-                      <path
-                        d="M810 554h-256v256h-84v-256h-256v-84h256v-256h84v256h256v84z"
-                      ></path>
-                    </svg>
-                  </div>
-                  <div data-type="accordion-content" class="question-content">
-                    <span class="home-text44">
-                      Amet minim mollit non deserunt ullamco est sit aliqua
-                      dolor do amet sint. Velit officia consequat duis enim
-                      velit mollit.
-                    </span>
-                  </div>
-                </div>
-                <div data-role="Accordion" class="question">
-                  <div data-type="accordion-header" class="home-trigger4">
-                    <span class="home-text45">
-                      What do I need to do before applying the jobs?
-                    </span>
-                    <svg viewBox="0 0 1024 1024" class="home-icon26">
-                      <path
-                        d="M810 554h-256v256h-84v-256h-256v-84h256v-256h84v256h256v84z"
-                      ></path>
-                    </svg>
-                  </div>
-                  <div data-type="accordion-content" class="question-content">
-                    <span class="home-text46">
-                      Amet minim mollit non deserunt ullamco est sit aliqua
-                      dolor do amet sint. Velit officia consequat duis enim
-                      velit mollit.
-                    </span>
-                  </div>
-                </div>
-              </div>
-              <img
-                alt="image"
-                src="public/group%202-1200w.png"
-                class="home-image8"
-              />
-            </div>
-            <div class="home-banner">
-              <span class="home-text47 beforeHeading">get started</span>
-              <h1 class="home-text48">
-                Apply the jobs and gain real career experience.
-              </h1>
-              <span class="home-text49"></span>
-              <div class="home-btns"></div>
-            </div>
-          </div>
-        </div>
-        <footer class="home-footer">
-          <div class="home-links-container">
-            <div class="home-container17">
-              <div class="footer-column">
-                <span class="home-text50">Product</span>
-                <span class="home-text51">How it works</span>
-                <span class="home-text52">Features</span>
-                <span class="home-text53">Pricing</span>
-                <span class="home-text54">Blog</span>
-                <span>FAQ</span>
-              </div>
-              <div class="footer-column">
-                <span class="home-text56">App</span>
-                <span class="home-text57">Download iOS app</span>
-                <span class="home-text58">Download Android app</span>
-                <span class="home-text59">Log in to Portal</span>
-                <span class="home-text60">Administrative</span>
-                <span>Legal</span>
-              </div>
-              <div class="footer-column">
-                <span class="home-text62">Company</span>
-                <span class="home-text63">About us</span>
-                <span class="home-text64">Culture</span>
-                <span class="home-text65">Code of conduct</span>
-                <span class="home-text66">Careers</span>
-                <span class="home-text67">News</span>
-                <span>Contact</span>
-              </div>
-              <div class="footer-column">
-                <span class="home-text69">Invest</span>
-                <span class="home-text70">Commodity</span>
-                <span class="home-text71">Savings</span>
-                <span class="home-text72">
-                  <span>Taxes and fees</span>
-                  <br />
-                  <span></span>
-                </span>
-                <span class="home-text75"><span>Currency exchange</span></span>
-                <span>Community</span>
-              </div>
-              <div class="footer-column">
-                <span class="home-text78">Security</span>
-                <span class="home-text79">Security status</span>
-                <span class="home-text80">ISO</span>
-                <span class="home-text81">System status</span>
-                <span>Customer Help</span>
-              </div>
-              <div class="footer-column">
-                <span class="home-text83">Follow</span>
-                <span class="home-text84">Instagram</span>
-                <span class="home-text85">X</span>
-                <span class="home-text86">Facebook</span>
-                <span class="home-text87">Tik Tok</span>
-                <span class="home-text88">Linkedln</span>
-                <span>Youtube</span>
-              </div>
-            </div>
-          </div>
-        </footer>
-        <a href="https://play.teleporthq.io/signup" class="home-link3">
-          <div aria-label="Sign up to TeleportHQ" class="home-container24">
-            <svg
-              width="24"
-              height="24"
-              viewBox="0 0 19 21"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-              class="home-icon28"
-            >
-              <path
-                d="M9.1017 4.64355H2.17867C0.711684 4.64355 -0.477539 5.79975 -0.477539 7.22599V13.9567C-0.477539 15.3829 0.711684 16.5391 2.17867 16.5391H9.1017C10.5687 16.5391 11.7579 15.3829 11.7579 13.9567V7.22599C11.7579 5.79975 10.5687 4.64355 9.1017 4.64355Z"
-                fill="#B23ADE"
-              ></path>
-              <path
-                d="M10.9733 12.7878C14.4208 12.7878 17.2156 10.0706 17.2156 6.71886C17.2156 3.3671 14.4208 0.649963 10.9733 0.649963C7.52573 0.649963 4.73096 3.3671 4.73096 6.71886C4.73096 10.0706 7.52573 12.7878 10.9733 12.7878Z"
-                fill="#FF5C5C"
-              ></path>
-              <path
-                d="M17.7373 13.3654C19.1497 14.1588 19.1497 15.4634 17.7373 16.2493L10.0865 20.5387C8.67402 21.332 7.51855 20.6836 7.51855 19.0968V10.5141C7.51855 8.92916 8.67402 8.2807 10.0865 9.07221L17.7373 13.3654Z"
-                fill="#2874DE"
-              ></path>
-            </svg>
-            <span class="home-text90">Built in TeleportHQ</span>
-          </div>
-        </a>
-      </div>
-    </div>
-    <script defer="">
-      window.onload = () => {
-        const runAllScripts = () => {
-          initializeAllAccordions()
-        }
-
-        const listenForUrlChanges = () => {
-          let url = location.href
-          document.body.addEventListener(
-            'click',
-            () => {
-              requestAnimationFrame(() => {
-                if (url !== location.href) {
-                  runAllScripts()
-                  url = location.href
-                }
-              })
-            },
-            true
-          )
-        }
-
-        const initializeAllAccordions = () => {
-          const allAccordions = document.querySelectorAll('[data-role="Accordion"]');
-
-          allAccordions.forEach((accordion) => {
-            const accordionHeader = accordion.querySelector('[data-type="accordion-header"]')
-            const accordionContent = accordion.querySelector('[data-type="accordion-content"]')
-
-            accordionHeader.addEventListener('click', () => {
-              if (accordionContent.style.maxHeight) {
-                accordionContent.style.maxHeight = ''
-              } else {
-                accordionContent.style.maxHeight = `${accordionContent.scrollHeight}px`
-              }
-            })
-          })
-        }
-
-        listenForUrlChanges()
-        runAllScripts()
-      }
-    </script>
-    <script
-      defer=""
-      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
-    ></script>
-  </body>
+  <body id="ik1k"><div id="i34ewu" class="navbar"><div data-gjs="navbar" id="idc3z3" class="navbar-container"><a href="/" id="io4ois" class="navbar-brand"><div id="ipjt"><img src="https://cdn.grapesjs.com/workspaces/cmc4xkttt0df99wj7woejj4g8/assets/57a6ad1e-f781-46f7-aa3a-dde2bca93309__screenshot-2025-10-13-at-12.35.20-pm.png" alt="" width="100%" id="ifaatv"/></div></a><div id="ikifhy" class="navbar-burger"><div id="iu185p" class="navbar-burger-line"></div><div id="i4zia3" class="navbar-burger-line"></div><div id="itgvez" class="navbar-burger-line"></div></div><div data-gjs="navbar-items" id="i4jeez" class="navbar-items-c"><nav id="iea45j" class="navbar-menu"><a id="ieua1i"><div>Home</div></a><a id="ie9frk"><div>About</div></a><a id="i9arqi"><div>Portfolio</div></a><a id="itk0rr"><div>Blog</div></a><a id="ii1zdg"><div>Contact</div></a><a href="#" id="ib0ofi">Contact Us</a></nav></div></div></div><section id="i5jfv3" class="gjs-section"><div id="ihsask" class="gjs-container"><div data-type-role="flex-row" id="i29tw" class="gjs-plg-flex-row"><div data-type-role="flex-column" id="isn72" class="gjs-plg-flex-column"><div id="iecfj"><div>- Marketing Agency</div></div><h1 id="idzvj"><b id="izgik">Define</b><br id="i0jru"/>Your Identity</h1><div id="iwggb"><div id="itsp2j">We provide prompt responses for HR teams, ensuring a positive experience for employees while offering competitive premiums for finance departments.</div></div><a href="#" id="i9nyo" class="btn-primary">Book a Meeting</a></div><div data-type-role="flex-column" id="igmvl" class="gjs-plg-flex-column"><img id="imkoh" src="https://cdn.grapesjs.com/workspaces/cmc4xkttt0df99wj7woejj4g8/assets/2db8743d-a28d-4057-908b-84d847f2590a__2ecb39bce698c1b063ae068ecc9eaeb1.jpeg"/></div></div><img id="iayjh" src="https://cdn.grapesjs.com/workspaces/cmc4xkttt0df99wj7woejj4g8/assets/6f86b5ab-23b5-43fe-9b6c-e0e61a3dd2d3__vector-smart-111-1.png"/></div></section><div data-type-role="flex-row" id="ikjk8" class="gjs-plg-flex-row"><div data-type-role="flex-column" id="if7tg" class="gjs-plg-flex-column"><div id="i3d4b"><div>About Us</div></div><h2 id="in9kv">We are a Leading Branding <b id="is4hj">Agency</b></h2><div id="id098"><div id="ix6cej">Designwise is a well-known name led by professionals dedicated to empowering clients with the best branding solutions. We have been serving in the competitive industry</div></div></div></div><section id="ixoau" class="gjs-section"><div id="ij1e2" class="gjs-container"><a id="ig729"><div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>View More</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></a><div data-type-icon id="iizsa" class="gjs-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 12h16m-7-7l7 7l-7 7"></path></svg></div></div></section><div id="i7dm2" class="video-section"><div id="i7z76" class="play-btn-wrapper"></div><video allowfullscreen="allowfullscreen" id="ifqf0u" src="https://videos.pexels.com/video-files/7101912/7101912-uhd_2560_1440_25fps.mp4" controls playsinline=""></video></div><section id="ib45m" class="gjs-section"><div id="iebml" class="gjs-container"><div data-type-role="flex-row" id="i5bij" class="gjs-plg-flex-row"><div data-type-role="flex-column" id="iem35" class="gjs-plg-flex-column"><img id="iqdgs" src="https://cdn.grapesjs.com/workspaces/cmc4xkttt0df99wj7woejj4g8/assets/54b977e7-9608-4d0f-83f5-3a0543881d69__a7134412e19cecfc39f70edca60f2594.png"/></div><div data-type-role="flex-column" id="ix5hn" class="gjs-plg-flex-column"><div id="i25jz" class="gjs-custom-code"><h2 id="iqop2">Start with <span id="ihn0e">Strategy</span></h2></div><div id="inqwg"><div>Brand Messaging Brand Positioning Brand Expression</div></div><div id="i0gcu"><div>A strong brand starts with a strong strategy. At Designwise, we craft the most effective strategies that resonate with your brand identity and audience. We provide comprehensive services from market positioning to storytelling to elevate your brand. With a focus on delivering effective services, we stand out as exceptional with a strong portfolio of helping brands to reach success.</div></div><div id="icoc3" class="gjs-custom-code"><a href="#" id="i215j">Get In Touch</a></div></div></div><div data-type-role="flex-row" id="i5bij-2" class="gjs-plg-flex-row"><div data-type-role="flex-column" id="ix5hn-2" class="gjs-plg-flex-column"><div id="i25jz-2" class="gjs-custom-code"><h2 id="iqykb">Grow Your <span id="io1rf" class="" draggable="true" data-gjs-type="text">Brand</span></h2></div><div id="inqwg-2"><div>Digital Presence Visual Identity Market Differentiation</div></div><div id="i0gcu-2"><div>Are you looking to take your brand to the next level? Look no further as we provide the best solutions to sustain brand growth. We help businesses expand their reach and maintain positive relationships through compelling&nbsp;content. Rely on us to achieve the recognition that you dream of while&nbsp;winning loyalty along the way.</div></div><div id="irb09" class="gjs-custom-code"><a href="#" id="i9ork">Get In Touch</a></div></div><div data-type-role="flex-column" id="iem35-2" class="gjs-plg-flex-column"><img id="iqdgs-2" src="https://cdn.grapesjs.com/workspaces/cmc4xkttt0df99wj7woejj4g8/assets/709cb3cc-8db1-4fa5-bf32-74793ce3f531__ccbb7139937f923aed2641d08bd7f8ae.png"/></div></div><div data-type-role="flex-row" id="i5bij-2-2" class="gjs-plg-flex-row"><div data-type-role="flex-column" id="ix5hn-2-2" class="gjs-plg-flex-column"><div id="i25jz-2-2" class="gjs-custom-code"><h2 id="i79sf">Grow Your <span id="io1rf" class="" draggable="true" data-gjs-type="text">Brand</span></h2></div><div id="i0gcu-2-2"><div>Are you looking to take your brand to the next level? Look no further as we provide the best solutions to sustain brand growth. We help businesses expand their reach and maintain positive relationships through compelling content. Rely on us to achieve the recognition that you dream of while winning loyalty along the way.</div></div><a href="#" id="i9nyo-2" class="btn-primary">Book a Meeting</a></div></div><div data-type-role="flex-row" id="i5bij-2-2-2" class="gjs-plg-flex-row"><div data-type-role="flex-column" id="ix5hn-2-2-2" title="" __nc="" class="parent"><img id="i2xc1i" src="https://cdn.grapesjs.com/workspaces/cmc4xkttt0df99wj7woejj4g8/assets/c1af0ed1-73c4-4b95-9a1f-9cc48c728bc9__output-onlinepngtools-3.png"/><h1 id="idsexk">Email Marketing</h1><div id="i71a8n"><div> Designwise is the best email marketing agency </div></div><div data-type-icon id="i4lakf" __nc="parenticon" class="gjs-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M13.47 8.53a.75.75 0 0 1 1.06-1.06l4 4a.75.75 0 0 1 0 1.06l-4 4a.75.75 0 1 1-1.06-1.06l2.72-2.72H6.5a.75.75 0 0 1 0-1.5h9.69z">
+  </path></svg></div></div><div data-type-role="flex-column" id="ix5hn-2-2-2-2" title="" __nc="" customAttributes="[object Object]" class="parent"><img id="i2xc1i-2" src="https://cdn.grapesjs.com/workspaces/cmc4xkttt0df99wj7woejj4g8/assets/f125f2bf-a2a1-40b0-8a18-9428624bd587__play-button-1.png"/><h1 id="idsexk-2">UGC Video</h1><div id="i71a8n-2"><div>Designwise is the best mobile app development company.</div></div><div data-type-icon id="i4lakf-2" __nc="parenticon" customAttributes="[object Object]" class="gjs-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M13.47 8.53a.75.75 0 0 1 1.06-1.06l4 4a.75.75 0 0 1 0 1.06l-4 4a.75.75 0 1 1-1.06-1.06l2.72-2.72H6.5a.75.75 0 0 1 0-1.5h9.69z">
+  </path></svg></div></div><div data-type-role="flex-column" id="ix5hn-2-2-2-2-2" title="" __nc="" customAttributes="[object Object]" class="parent"><img id="i2xc1i-2-2" src="https://cdn.grapesjs.com/workspaces/cmc4xkttt0df99wj7woejj4g8/assets/c813b4e0-a793-4398-b4d5-fedfb52f0fbd__vector-14-1.png"/><h1 id="idsexk-2-2"><span style="white-space-collapse: preserve;">Website Design</span></h1><div id="i71a8n-2-2"><div>Designwise is the best website design company.</div></div><div data-type-icon id="i4lakf-2-2" __nc="parenticon" customAttributes="[object Object]" class="gjs-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M13.47 8.53a.75.75 0 0 1 1.06-1.06l4 4a.75.75 0 0 1 0 1.06l-4 4a.75.75 0 1 1-1.06-1.06l2.72-2.72H6.5a.75.75 0 0 1 0-1.5h9.69z">
+  </path></svg></div></div><div data-type-role="flex-column" id="ix5hn-2-2-2-2-2-2" title="" __nc="" customAttributes="[object Object]" class="parent"><img id="i2xc1i-2-2-2" src="https://cdn.grapesjs.com/workspaces/cmc4xkttt0df99wj7woejj4g8/assets/0dea066b-6713-4868-b6a3-b6896d60f3c1__group-2.png"/><h1 id="idsexk-2-2-2"><span style="white-space-collapse: preserve;">Brocher Design</span></h1><div id="i71a8n-2-2-2"><div>Designwise is the best brochure design company.</div></div><div data-type-icon id="i4lakf-2-2-2" __nc="parenticon" customAttributes="[object Object]" class="gjs-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M13.47 8.53a.75.75 0 0 1 1.06-1.06l4 4a.75.75 0 0 1 0 1.06l-4 4a.75.75 0 1 1-1.06-1.06l2.72-2.72H6.5a.75.75 0 0 1 0-1.5h9.69z">
+  </path></svg></div></div></div><div data-type-role="flex-row" id="i5bij-2-2-2-2" class="gjs-plg-flex-row"><div data-type-role="flex-column" id="ix5hn-2-2-2-3" title="" __nc="" customAttributes="[object Object]" class="parent"><img id="i2xc1i-3" src="https://cdn.grapesjs.com/workspaces/cmc4xkttt0df99wj7woejj4g8/assets/af0f2e2e-adff-435b-a0ab-361def746ed8__logo-1.png"/><h1 id="idsexk-3"><span style="white-space-collapse: preserve;">Logo Design</span></h1><div id="i71a8n-3"><div>Designwise is the best logo design company.</div></div><div data-type-icon id="i4lakf-3" __nc="parenticon" customAttributes="[object Object]" class="gjs-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M13.47 8.53a.75.75 0 0 1 1.06-1.06l4 4a.75.75 0 0 1 0 1.06l-4 4a.75.75 0 1 1-1.06-1.06l2.72-2.72H6.5a.75.75 0 0 1 0-1.5h9.69z">
+  </path></svg></div></div><div data-type-role="flex-column" id="ix5hn-2-2-2-2-3" title="" __nc="" customAttributes="[object Object]" class="parent"><img id="i2xc1i-2-3" src="https://cdn.grapesjs.com/workspaces/cmc4xkttt0df99wj7woejj4g8/assets/a6c6670b-2635-439f-a2d1-2e2b95700725__shuttle-1-1.png"/><h1 id="idsexk-2-3">SEO / Expert</h1><div id="i71a8n-2-3"><div>Designwise, the leading search engine optimization agency.</div></div><div data-type-icon id="i4lakf-2-3" __nc="parenticon" customAttributes="[object Object]" class="gjs-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M13.47 8.53a.75.75 0 0 1 1.06-1.06l4 4a.75.75 0 0 1 0 1.06l-4 4a.75.75 0 1 1-1.06-1.06l2.72-2.72H6.5a.75.75 0 0 1 0-1.5h9.69z">
+  </path></svg></div></div><div data-type-role="flex-column" id="ix5hn-2-2-2-2-2-3" title="" __nc="" customAttributes="[object Object]" class="parent"><img id="i2xc1i-2-2-3" src="https://cdn.grapesjs.com/workspaces/cmc4xkttt0df99wj7woejj4g8/assets/7d71872b-945a-4dc9-ac11-91551542514e__code-1.png"/><h1 id="idsexk-2-2-3"><span style="white-space-collapse: preserve;">Custom Development</span></h1><div id="i71a8n-2-2-3"><div>Designwise is the best wordpress development company.</div></div><div data-type-icon id="i4lakf-2-2-3" __nc="parenticon" customAttributes="[object Object]" class="gjs-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M13.47 8.53a.75.75 0 0 1 1.06-1.06l4 4a.75.75 0 0 1 0 1.06l-4 4a.75.75 0 1 1-1.06-1.06l2.72-2.72H6.5a.75.75 0 0 1 0-1.5h9.69z">
+  </path></svg></div></div><div data-type-role="flex-column" id="ix5hn-2-2-2-2-2-2-2" title="" __nc="" customAttributes="[object Object]" class="parent"><img id="i2xc1i-2-2-2-2" src="https://cdn.grapesjs.com/workspaces/cmc4xkttt0df99wj7woejj4g8/assets/10da0423-7f1b-4edf-b6d9-ea4f84124c41__play-1-1.png"/><h1 id="idsexk-2-2-2-2"><span style="white-space-collapse: preserve;">Pay Per Click</span></h1><div id="i71a8n-2-2-2-2"><div>Designwise is the best pay per click agency.</div></div><div data-type-icon id="i4lakf-2-2-2-2" __nc="parenticon" customAttributes="[object Object]" class="gjs-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M13.47 8.53a.75.75 0 0 1 1.06-1.06l4 4a.75.75 0 0 1 0 1.06l-4 4a.75.75 0 1 1-1.06-1.06l2.72-2.72H6.5a.75.75 0 0 1 0-1.5h9.69z">
+  </path></svg></div></div></div></div></section><section id="iega1c" class="gjs-section"><div id="i5aj5d" class="gjs-container"><div data-type-role="flex-row" id="ik0a31" class="gjs-plg-flex-row"><div data-type-role="flex-column" id="i8zdwt" class="gjs-plg-flex-column"><div id="izk7bc"><div>Reviews</div></div><h1 id="isvgdi">Loved By The Best</h1></div></div><div id="i6db76" class="swiper"><div id="izgmlg" class="swiper-wrapper"><div id="i77fno" class="swiper-slide"><img id="isy0yt" src="https://cdn.grapesjs.com/workspaces/cmc4xkttt0df99wj7woejj4g8/assets/53c900a0-71db-48dc-bd62-92b75219bdca__left-quote-copy.png"/><div data-type-role="flex-row" id="iuw4d9" class="gjs-plg-flex-row"><div data-type-role="flex-column" id="ichuql" class="gjs-plg-flex-column"><div data-type-icon id="idthqd" class="gjs-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M12.865 2.996a1 1 0 0 0-1.73 0L8.421 7.674a1.25 1.25 0 0 1-.894.608L2.44 9.05c-.854.13-1.154 1.208-.488 1.76l3.789 3.138c.35.291.515.75.43 1.197L5.18 20.35a1 1 0 0 0 1.448 1.072l4.79-2.522a1.25 1.25 0 0 1 1.164 0l4.79 2.522a1 1 0 0 0 1.448-1.072l-.991-5.205a1.25 1.25 0 0 1 .43-1.197l3.79-3.139c.665-.55.365-1.63-.49-1.759l-5.085-.768a1.25 1.25 0 0 1-.895-.608z"></path></svg></div><div data-type-icon id="ilxg4t" class="gjs-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M12.865 2.996a1 1 0 0 0-1.73 0L8.421 7.674a1.25 1.25 0 0 1-.894.608L2.44 9.05c-.854.13-1.154 1.208-.488 1.76l3.789 3.138c.35.291.515.75.43 1.197L5.18 20.35a1 1 0 0 0 1.448 1.072l4.79-2.522a1.25 1.25 0 0 1 1.164 0l4.79 2.522a1 1 0 0 0 1.448-1.072l-.991-5.205a1.25 1.25 0 0 1 .43-1.197l3.79-3.139c.665-.55.365-1.63-.49-1.759l-5.085-.768a1.25 1.25 0 0 1-.895-.608z"></path></svg></div><div data-type-icon id="icff55" class="gjs-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M12.865 2.996a1 1 0 0 0-1.73 0L8.421 7.674a1.25 1.25 0 0 1-.894.608L2.44 9.05c-.854.13-1.154 1.208-.488 1.76l3.789 3.138c.35.291.515.75.43 1.197L5.18 20.35a1 1 0 0 0 1.448 1.072l4.79-2.522a1.25 1.25 0 0 1 1.164 0l4.79 2.522a1 1 0 0 0 1.448-1.072l-.991-5.205a1.25 1.25 0 0 1 .43-1.197l3.79-3.139c.665-.55.365-1.63-.49-1.759l-5.085-.768a1.25 1.25 0 0 1-.895-.608z"></path></svg></div><div data-type-icon id="igvvb3" class="gjs-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M12.865 2.996a1 1 0 0 0-1.73 0L8.421 7.674a1.25 1.25 0 0 1-.894.608L2.44 9.05c-.854.13-1.154 1.208-.488 1.76l3.789 3.138c.35.291.515.75.43 1.197L5.18 20.35a1 1 0 0 0 1.448 1.072l4.79-2.522a1.25 1.25 0 0 1 1.164 0l4.79 2.522a1 1 0 0 0 1.448-1.072l-.991-5.205a1.25 1.25 0 0 1 .43-1.197l3.79-3.139c.665-.55.365-1.63-.49-1.759l-5.085-.768a1.25 1.25 0 0 1-.895-.608z"></path></svg></div><div data-type-icon id="irh3oi" class="gjs-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M12.865 2.996a1 1 0 0 0-1.73 0L8.421 7.674a1.25 1.25 0 0 1-.894.608L2.44 9.05c-.854.13-1.154 1.208-.488 1.76l3.789 3.138c.35.291.515.75.43 1.197L5.18 20.35a1 1 0 0 0 1.448 1.072l4.79-2.522a1.25 1.25 0 0 1 1.164 0l4.79 2.522a1 1 0 0 0 1.448-1.072l-.991-5.205a1.25 1.25 0 0 1 .43-1.197l3.79-3.139c.665-.55.365-1.63-.49-1.759l-5.085-.768a1.25 1.25 0 0 1-.895-.608z"></path></svg></div></div><div data-type-role="flex-column" id="ikx6dp" class="gjs-plg-flex-column"><div id="i4seo1"><div>Oct 12, 2024</div></div></div></div><div id="i7v2kk"><div>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</div></div><div data-type-role="flex-row" id="ie90l8" class="gjs-plg-flex-row"><div data-type-role="flex-column" id="invfkw" class="gjs-plg-flex-column"><img id="iu6k0h" src="https://images.unsplash.com/photo-1705645930353-0e335311ef20?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w3NzE5NjR8MHwxfHNlYXJjaHwyNXx8aGVhZHNob3R8ZW58MHx8fHwxNzYwMzc0ODY1fDA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="John Smith headshot" loading="lazy" decoding="async"/></div><div data-type-role="flex-column" id="ijyehk" class="gjs-plg-flex-column"><h1 id="igxjr4">John Smith</h1><div id="iyx9su"><div>Business Manger</div></div></div></div></div><div id="isn353" class="swiper-slide"><img id="i764gi" src="https://cdn.grapesjs.com/workspaces/cmc4xkttt0df99wj7woejj4g8/assets/53c900a0-71db-48dc-bd62-92b75219bdca__left-quote-copy.png"/><div data-type-role="flex-row" id="i5fkqc" class="gjs-plg-flex-row"><div data-type-role="flex-column" id="iqhl89" class="gjs-plg-flex-column"><div data-type-icon id="ib67ag" class="gjs-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M12.865 2.996a1 1 0 0 0-1.73 0L8.421 7.674a1.25 1.25 0 0 1-.894.608L2.44 9.05c-.854.13-1.154 1.208-.488 1.76l3.789 3.138c.35.291.515.75.43 1.197L5.18 20.35a1 1 0 0 0 1.448 1.072l4.79-2.522a1.25 1.25 0 0 1 1.164 0l4.79 2.522a1 1 0 0 0 1.448-1.072l-.991-5.205a1.25 1.25 0 0 1 .43-1.197l3.79-3.139c.665-.55.365-1.63-.49-1.759l-5.085-.768a1.25 1.25 0 0 1-.895-.608z"></path></svg></div><div data-type-icon id="ij4a53" class="gjs-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M12.865 2.996a1 1 0 0 0-1.73 0L8.421 7.674a1.25 1.25 0 0 1-.894.608L2.44 9.05c-.854.13-1.154 1.208-.488 1.76l3.789 3.138c.35.291.515.75.43 1.197L5.18 20.35a1 1 0 0 0 1.448 1.072l4.79-2.522a1.25 1.25 0 0 1 1.164 0l4.79 2.522a1 1 0 0 0 1.448-1.072l-.991-5.205a1.25 1.25 0 0 1 .43-1.197l3.79-3.139c.665-.55.365-1.63-.49-1.759l-5.085-.768a1.25 1.25 0 0 1-.895-.608z"></path></svg></div><div data-type-icon id="i5czjt" class="gjs-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M12.865 2.996a1 1 0 0 0-1.73 0L8.421 7.674a1.25 1.25 0 0 1-.894.608L2.44 9.05c-.854.13-1.154 1.208-.488 1.76l3.789 3.138c.35.291.515.75.43 1.197L5.18 20.35a1 1 0 0 0 1.448 1.072l4.79-2.522a1.25 1.25 0 0 1 1.164 0l4.79 2.522a1 1 0 0 0 1.448-1.072l-.991-5.205a1.25 1.25 0 0 1 .43-1.197l3.79-3.139c.665-.55.365-1.63-.49-1.759l-5.085-.768a1.25 1.25 0 0 1-.895-.608z"></path></svg></div><div data-type-icon id="i7a14j" class="gjs-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M12.865 2.996a1 1 0 0 0-1.73 0L8.421 7.674a1.25 1.25 0 0 1-.894.608L2.44 9.05c-.854.13-1.154 1.208-.488 1.76l3.789 3.138c.35.291.515.75.43 1.197L5.18 20.35a1 1 0 0 0 1.448 1.072l4.79-2.522a1.25 1.25 0 0 1 1.164 0l4.79 2.522a1 1 0 0 0 1.448-1.072l-.991-5.205a1.25 1.25 0 0 1 .43-1.197l3.79-3.139c.665-.55.365-1.63-.49-1.759l-5.085-.768a1.25 1.25 0 0 1-.895-.608z"></path></svg></div><div data-type-icon id="idnxvs" class="gjs-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M12.865 2.996a1 1 0 0 0-1.73 0L8.421 7.674a1.25 1.25 0 0 1-.894.608L2.44 9.05c-.854.13-1.154 1.208-.488 1.76l3.789 3.138c.35.291.515.75.43 1.197L5.18 20.35a1 1 0 0 0 1.448 1.072l4.79-2.522a1.25 1.25 0 0 1 1.164 0l4.79 2.522a1 1 0 0 0 1.448-1.072l-.991-5.205a1.25 1.25 0 0 1 .43-1.197l3.79-3.139c.665-.55.365-1.63-.49-1.759l-5.085-.768a1.25 1.25 0 0 1-.895-.608z"></path></svg></div></div><div data-type-role="flex-column" id="igzyla" class="gjs-plg-flex-column"><div id="imbtwi"><div>Oct 12, 2024</div></div></div></div><div id="iv82k4"><div>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed&nbsp;do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</div></div><div data-type-role="flex-row" id="in3iwl" class="gjs-plg-flex-row"><div data-type-role="flex-column" id="is15zf" class="gjs-plg-flex-column"><img id="iu6k0h-2" src="https://images.unsplash.com/photo-1650091903029-fc3f1ddcb7f9?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w3NzE5NjR8MHwxfHNlYXJjaHw1OXx8aGVhZHNob3R8ZW58MHx8fHwxNzYwMzc0ODc3fDA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="John Smith headshot" loading="lazy" decoding="async"/></div><div data-type-role="flex-column" id="i42ifb" class="gjs-plg-flex-column"><h1 id="ii9u83">James Smith</h1><div id="iqkpbh"><div>Business Manger</div></div></div></div></div><div id="iqvpih" class="swiper-slide"><img id="im1rti" src="https://cdn.grapesjs.com/workspaces/cmc4xkttt0df99wj7woejj4g8/assets/53c900a0-71db-48dc-bd62-92b75219bdca__left-quote-copy.png"/><div data-type-role="flex-row" id="i2woph" class="gjs-plg-flex-row"><div data-type-role="flex-column" id="il5iob" class="gjs-plg-flex-column"><div data-type-icon id="iu2o1b" class="gjs-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M12.865 2.996a1 1 0 0 0-1.73 0L8.421 7.674a1.25 1.25 0 0 1-.894.608L2.44 9.05c-.854.13-1.154 1.208-.488 1.76l3.789 3.138c.35.291.515.75.43 1.197L5.18 20.35a1 1 0 0 0 1.448 1.072l4.79-2.522a1.25 1.25 0 0 1 1.164 0l4.79 2.522a1 1 0 0 0 1.448-1.072l-.991-5.205a1.25 1.25 0 0 1 .43-1.197l3.79-3.139c.665-.55.365-1.63-.49-1.759l-5.085-.768a1.25 1.25 0 0 1-.895-.608z"></path></svg></div><div data-type-icon id="ir3iq3" class="gjs-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M12.865 2.996a1 1 0 0 0-1.73 0L8.421 7.674a1.25 1.25 0 0 1-.894.608L2.44 9.05c-.854.13-1.154 1.208-.488 1.76l3.789 3.138c.35.291.515.75.43 1.197L5.18 20.35a1 1 0 0 0 1.448 1.072l4.79-2.522a1.25 1.25 0 0 1 1.164 0l4.79 2.522a1 1 0 0 0 1.448-1.072l-.991-5.205a1.25 1.25 0 0 1 .43-1.197l3.79-3.139c.665-.55.365-1.63-.49-1.759l-5.085-.768a1.25 1.25 0 0 1-.895-.608z"></path></svg></div><div data-type-icon id="it1gc7" class="gjs-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M12.865 2.996a1 1 0 0 0-1.73 0L8.421 7.674a1.25 1.25 0 0 1-.894.608L2.44 9.05c-.854.13-1.154 1.208-.488 1.76l3.789 3.138c.35.291.515.75.43 1.197L5.18 20.35a1 1 0 0 0 1.448 1.072l4.79-2.522a1.25 1.25 0 0 1 1.164 0l4.79 2.522a1 1 0 0 0 1.448-1.072l-.991-5.205a1.25 1.25 0 0 1 .43-1.197l3.79-3.139c.665-.55.365-1.63-.49-1.759l-5.085-.768a1.25 1.25 0 0 1-.895-.608z"></path></svg></div><div data-type-icon id="iqismi" class="gjs-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M12.865 2.996a1 1 0 0 0-1.73 0L8.421 7.674a1.25 1.25 0 0 1-.894.608L2.44 9.05c-.854.13-1.154 1.208-.488 1.76l3.789 3.138c.35.291.515.75.43 1.197L5.18 20.35a1 1 0 0 0 1.448 1.072l4.79-2.522a1.25 1.25 0 0 1 1.164 0l4.79 2.522a1 1 0 0 0 1.448-1.072l-.991-5.205a1.25 1.25 0 0 1 .43-1.197l3.79-3.139c.665-.55.365-1.63-.49-1.759l-5.085-.768a1.25 1.25 0 0 1-.895-.608z"></path></svg></div><div data-type-icon id="itsuhf" class="gjs-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M12.865 2.996a1 1 0 0 0-1.73 0L8.421 7.674a1.25 1.25 0 0 1-.894.608L2.44 9.05c-.854.13-1.154 1.208-.488 1.76l3.789 3.138c.35.291.515.75.43 1.197L5.18 20.35a1 1 0 0 0 1.448 1.072l4.79-2.522a1.25 1.25 0 0 1 1.164 0l4.79 2.522a1 1 0 0 0 1.448-1.072l-.991-5.205a1.25 1.25 0 0 1 .43-1.197l3.79-3.139c.665-.55.365-1.63-.49-1.759l-5.085-.768a1.25 1.25 0 0 1-.895-.608z"></path></svg></div></div><div data-type-role="flex-column" id="i3btjg" class="gjs-plg-flex-column"><div id="iwenca"><div>Oct 12, 2024</div></div></div></div><div id="ipl4jq"><div>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</div></div><div data-type-role="flex-row" id="i2c8w2" class="gjs-plg-flex-row"><div data-type-role="flex-column" id="i14z8d" class="gjs-plg-flex-column"><img id="iu6k0h-2-2" src="https://images.unsplash.com/photo-1701096351544-7de3c7fa0272?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w3NzE5NjR8MHwxfHNlYXJjaHwzMHx8aGVhZHNob3R8ZW58MHx8fHwxNzYwMzc0ODY1fDA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080"/></div><div data-type-role="flex-column" id="i07c5f" class="gjs-plg-flex-column"><h1 id="iqwc4w">Abby Smith</h1><div id="iglipj"><div>Business Manger</div></div></div></div></div></div><div class="swiper-pagination"></div></div><div id="i6db76-2" class="swiper"><div id="izgmlg-2" class="swiper-wrapper"><div id="i77fno-2" class="swiper-slide"><img id="isy0yt-2" src="https://cdn.grapesjs.com/workspaces/cmc4xkttt0df99wj7woejj4g8/assets/53c900a0-71db-48dc-bd62-92b75219bdca__left-quote-copy.png"/><div data-type-role="flex-row" id="iuw4d9-2" class="gjs-plg-flex-row"><div data-type-role="flex-column" id="ichuql-2" class="gjs-plg-flex-column"><div data-type-icon id="idthqd-2" class="gjs-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M12.865 2.996a1 1 0 0 0-1.73 0L8.421 7.674a1.25 1.25 0 0 1-.894.608L2.44 9.05c-.854.13-1.154 1.208-.488 1.76l3.789 3.138c.35.291.515.75.43 1.197L5.18 20.35a1 1 0 0 0 1.448 1.072l4.79-2.522a1.25 1.25 0 0 1 1.164 0l4.79 2.522a1 1 0 0 0 1.448-1.072l-.991-5.205a1.25 1.25 0 0 1 .43-1.197l3.79-3.139c.665-.55.365-1.63-.49-1.759l-5.085-.768a1.25 1.25 0 0 1-.895-.608z"></path></svg></div><div data-type-icon id="ilxg4t-2" class="gjs-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M12.865 2.996a1 1 0 0 0-1.73 0L8.421 7.674a1.25 1.25 0 0 1-.894.608L2.44 9.05c-.854.13-1.154 1.208-.488 1.76l3.789 3.138c.35.291.515.75.43 1.197L5.18 20.35a1 1 0 0 0 1.448 1.072l4.79-2.522a1.25 1.25 0 0 1 1.164 0l4.79 2.522a1 1 0 0 0 1.448-1.072l-.991-5.205a1.25 1.25 0 0 1 .43-1.197l3.79-3.139c.665-.55.365-1.63-.49-1.759l-5.085-.768a1.25 1.25 0 0 1-.895-.608z"></path></svg></div><div data-type-icon id="icff55-2" class="gjs-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M12.865 2.996a1 1 0 0 0-1.73 0L8.421 7.674a1.25 1.25 0 0 1-.894.608L2.44 9.05c-.854.13-1.154 1.208-.488 1.76l3.789 3.138c.35.291.515.75.43 1.197L5.18 20.35a1 1 0 0 0 1.448 1.072l4.79-2.522a1.25 1.25 0 0 1 1.164 0l4.79 2.522a1 1 0 0 0 1.448-1.072l-.991-5.205a1.25 1.25 0 0 1 .43-1.197l3.79-3.139c.665-.55.365-1.63-.49-1.759l-5.085-.768a1.25 1.25 0 0 1-.895-.608z"></path></svg></div><div data-type-icon id="igvvb3-2" class="gjs-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M12.865 2.996a1 1 0 0 0-1.73 0L8.421 7.674a1.25 1.25 0 0 1-.894.608L2.44 9.05c-.854.13-1.154 1.208-.488 1.76l3.789 3.138c.35.291.515.75.43 1.197L5.18 20.35a1 1 0 0 0 1.448 1.072l4.79-2.522a1.25 1.25 0 0 1 1.164 0l4.79 2.522a1 1 0 0 0 1.448-1.072l-.991-5.205a1.25 1.25 0 0 1 .43-1.197l3.79-3.139c.665-.55.365-1.63-.49-1.759l-5.085-.768a1.25 1.25 0 0 1-.895-.608z"></path></svg></div><div data-type-icon id="irh3oi-2" class="gjs-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M12.865 2.996a1 1 0 0 0-1.73 0L8.421 7.674a1.25 1.25 0 0 1-.894.608L2.44 9.05c-.854.13-1.154 1.208-.488 1.76l3.789 3.138c.35.291.515.75.43 1.197L5.18 20.35a1 1 0 0 0 1.448 1.072l4.79-2.522a1.25 1.25 0 0 1 1.164 0l4.79 2.522a1 1 0 0 0 1.448-1.072l-.991-5.205a1.25 1.25 0 0 1 .43-1.197l3.79-3.139c.665-.55.365-1.63-.49-1.759l-5.085-.768a1.25 1.25 0 0 1-.895-.608z"></path></svg></div></div><div data-type-role="flex-column" id="ikx6dp-2" class="gjs-plg-flex-column"><div id="i4seo1-2"><div>Oct 12, 2024</div></div></div></div><div id="i7v2kk-2"><div>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</div></div><div data-type-role="flex-row" id="ie90l8-2" class="gjs-plg-flex-row"><div data-type-role="flex-column" id="invfkw-2" class="gjs-plg-flex-column"><img id="iu6k0h-3" src="https://cdn.grapesjs.com/workspaces/cmc4xkttt0df99wj7woejj4g8/assets/42b07d54-cdbd-4df6-bb1c-675f9c2332e1__clip-path-group-1.png"/></div><div data-type-role="flex-column" id="ijyehk-2" class="gjs-plg-flex-column"><h1 id="igxjr4-2">John Smith</h1><div id="iyx9su-2"><div>Business Manger</div></div></div></div></div><div id="isn353-2" class="swiper-slide"><img id="i764gi-2" src="https://cdn.grapesjs.com/workspaces/cmc4xkttt0df99wj7woejj4g8/assets/53c900a0-71db-48dc-bd62-92b75219bdca__left-quote-copy.png"/><div data-type-role="flex-row" id="i5fkqc-2" class="gjs-plg-flex-row"><div data-type-role="flex-column" id="iqhl89-2" class="gjs-plg-flex-column"><div data-type-icon id="ib67ag-2" class="gjs-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M12.865 2.996a1 1 0 0 0-1.73 0L8.421 7.674a1.25 1.25 0 0 1-.894.608L2.44 9.05c-.854.13-1.154 1.208-.488 1.76l3.789 3.138c.35.291.515.75.43 1.197L5.18 20.35a1 1 0 0 0 1.448 1.072l4.79-2.522a1.25 1.25 0 0 1 1.164 0l4.79 2.522a1 1 0 0 0 1.448-1.072l-.991-5.205a1.25 1.25 0 0 1 .43-1.197l3.79-3.139c.665-.55.365-1.63-.49-1.759l-5.085-.768a1.25 1.25 0 0 1-.895-.608z"></path></svg></div><div data-type-icon id="ij4a53-2" class="gjs-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M12.865 2.996a1 1 0 0 0-1.73 0L8.421 7.674a1.25 1.25 0 0 1-.894.608L2.44 9.05c-.854.13-1.154 1.208-.488 1.76l3.789 3.138c.35.291.515.75.43 1.197L5.18 20.35a1 1 0 0 0 1.448 1.072l4.79-2.522a1.25 1.25 0 0 1 1.164 0l4.79 2.522a1 1 0 0 0 1.448-1.072l-.991-5.205a1.25 1.25 0 0 1 .43-1.197l3.79-3.139c.665-.55.365-1.63-.49-1.759l-5.085-.768a1.25 1.25 0 0 1-.895-.608z"></path></svg></div><div data-type-icon id="i5czjt-2" class="gjs-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M12.865 2.996a1 1 0 0 0-1.73 0L8.421 7.674a1.25 1.25 0 0 1-.894.608L2.44 9.05c-.854.13-1.154 1.208-.488 1.76l3.789 3.138c.35.291.515.75.43 1.197L5.18 20.35a1 1 0 0 0 1.448 1.072l4.79-2.522a1.25 1.25 0 0 1 1.164 0l4.79 2.522a1 1 0 0 0 1.448-1.072l-.991-5.205a1.25 1.25 0 0 1 .43-1.197l3.79-3.139c.665-.55.365-1.63-.49-1.759l-5.085-.768a1.25 1.25 0 0 1-.895-.608z"></path></svg></div><div data-type-icon id="i7a14j-2" class="gjs-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M12.865 2.996a1 1 0 0 0-1.73 0L8.421 7.674a1.25 1.25 0 0 1-.894.608L2.44 9.05c-.854.13-1.154 1.208-.488 1.76l3.789 3.138c.35.291.515.75.43 1.197L5.18 20.35a1 1 0 0 0 1.448 1.072l4.79-2.522a1.25 1.25 0 0 1 1.164 0l4.79 2.522a1 1 0 0 0 1.448-1.072l-.991-5.205a1.25 1.25 0 0 1 .43-1.197l3.79-3.139c.665-.55.365-1.63-.49-1.759l-5.085-.768a1.25 1.25 0 0 1-.895-.608z"></path></svg></div><div data-type-icon id="idnxvs-2" class="gjs-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M12.865 2.996a1 1 0 0 0-1.73 0L8.421 7.674a1.25 1.25 0 0 1-.894.608L2.44 9.05c-.854.13-1.154 1.208-.488 1.76l3.789 3.138c.35.291.515.75.43 1.197L5.18 20.35a1 1 0 0 0 1.448 1.072l4.79-2.522a1.25 1.25 0 0 1 1.164 0l4.79 2.522a1 1 0 0 0 1.448-1.072l-.991-5.205a1.25 1.25 0 0 1 .43-1.197l3.79-3.139c.665-.55.365-1.63-.49-1.759l-5.085-.768a1.25 1.25 0 0 1-.895-.608z"></path></svg></div></div><div data-type-role="flex-column" id="igzyla-2" class="gjs-plg-flex-column"><div id="imbtwi-2"><div>Oct 12, 2024</div></div></div></div><div id="iv82k4-2"><div>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed&nbsp;do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</div></div><div data-type-role="flex-row" id="in3iwl-2" class="gjs-plg-flex-row"><div data-type-role="flex-column" id="is15zf-2" class="gjs-plg-flex-column"><img id="iu6k0h-2-3" src="https://cdn.grapesjs.com/workspaces/cmc4xkttt0df99wj7woejj4g8/assets/42b07d54-cdbd-4df6-bb1c-675f9c2332e1__clip-path-group-1.png"/></div><div data-type-role="flex-column" id="i42ifb-2" class="gjs-plg-flex-column"><h1 id="ii9u83-2">John Smith</h1><div id="iqkpbh-2"><div>Business Manger</div></div></div></div></div><div id="iqvpih-2" class="swiper-slide"><img id="im1rti-2" src="https://cdn.grapesjs.com/workspaces/cmc4xkttt0df99wj7woejj4g8/assets/53c900a0-71db-48dc-bd62-92b75219bdca__left-quote-copy.png"/><div data-type-role="flex-row" id="i2woph-2" class="gjs-plg-flex-row"><div data-type-role="flex-column" id="il5iob-2" class="gjs-plg-flex-column"><div data-type-icon id="iu2o1b-2" class="gjs-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M12.865 2.996a1 1 0 0 0-1.73 0L8.421 7.674a1.25 1.25 0 0 1-.894.608L2.44 9.05c-.854.13-1.154 1.208-.488 1.76l3.789 3.138c.35.291.515.75.43 1.197L5.18 20.35a1 1 0 0 0 1.448 1.072l4.79-2.522a1.25 1.25 0 0 1 1.164 0l4.79 2.522a1 1 0 0 0 1.448-1.072l-.991-5.205a1.25 1.25 0 0 1 .43-1.197l3.79-3.139c.665-.55.365-1.63-.49-1.759l-5.085-.768a1.25 1.25 0 0 1-.895-.608z"></path></svg></div><div data-type-icon id="ir3iq3-2" class="gjs-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M12.865 2.996a1 1 0 0 0-1.73 0L8.421 7.674a1.25 1.25 0 0 1-.894.608L2.44 9.05c-.854.13-1.154 1.208-.488 1.76l3.789 3.138c.35.291.515.75.43 1.197L5.18 20.35a1 1 0 0 0 1.448 1.072l4.79-2.522a1.25 1.25 0 0 1 1.164 0l4.79 2.522a1 1 0 0 0 1.448-1.072l-.991-5.205a1.25 1.25 0 0 1 .43-1.197l3.79-3.139c.665-.55.365-1.63-.49-1.759l-5.085-.768a1.25 1.25 0 0 1-.895-.608z"></path></svg></div><div data-type-icon id="it1gc7-2" class="gjs-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M12.865 2.996a1 1 0 0 0-1.73 0L8.421 7.674a1.25 1.25 0 0 1-.894.608L2.44 9.05c-.854.13-1.154 1.208-.488 1.76l3.789 3.138c.35.291.515.75.43 1.197L5.18 20.35a1 1 0 0 0 1.448 1.072l4.79-2.522a1.25 1.25 0 0 1 1.164 0l4.79 2.522a1 1 0 0 0 1.448-1.072l-.991-5.205a1.25 1.25 0 0 1 .43-1.197l3.79-3.139c.665-.55.365-1.63-.49-1.759l-5.085-.768a1.25 1.25 0 0 1-.895-.608z"></path></svg></div><div data-type-icon id="iqismi-2" class="gjs-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M12.865 2.996a1 1 0 0 0-1.73 0L8.421 7.674a1.25 1.25 0 0 1-.894.608L2.44 9.05c-.854.13-1.154 1.208-.488 1.76l3.789 3.138c.35.291.515.75.43 1.197L5.18 20.35a1 1 0 0 0 1.448 1.072l4.79-2.522a1.25 1.25 0 0 1 1.164 0l4.79 2.522a1 1 0 0 0 1.448-1.072l-.991-5.205a1.25 1.25 0 0 1 .43-1.197l3.79-3.139c.665-.55.365-1.63-.49-1.759l-5.085-.768a1.25 1.25 0 0 1-.895-.608z"></path></svg></div><div data-type-icon id="itsuhf-2" class="gjs-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M12.865 2.996a1 1 0 0 0-1.73 0L8.421 7.674a1.25 1.25 0 0 1-.894.608L2.44 9.05c-.854.13-1.154 1.208-.488 1.76l3.789 3.138c.35.291.515.75.43 1.197L5.18 20.35a1 1 0 0 0 1.448 1.072l4.79-2.522a1.25 1.25 0 0 1 1.164 0l4.79 2.522a1 1 0 0 0 1.448-1.072l-.991-5.205a1.25 1.25 0 0 1 .43-1.197l3.79-3.139c.665-.55.365-1.63-.49-1.759l-5.085-.768a1.25 1.25 0 0 1-.895-.608z"></path></svg></div></div><div data-type-role="flex-column" id="i3btjg-2" class="gjs-plg-flex-column"><div id="iwenca-2"><div>Oct 12, 2024</div></div></div></div><div id="ipl4jq-2"><div>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</div></div><div data-type-role="flex-row" id="i2c8w2-2" class="gjs-plg-flex-row"><div data-type-role="flex-column" id="i14z8d-2" class="gjs-plg-flex-column"><img id="iu6k0h-2-2-2" src="https://cdn.grapesjs.com/workspaces/cmc4xkttt0df99wj7woejj4g8/assets/42b07d54-cdbd-4df6-bb1c-675f9c2332e1__clip-path-group-1.png"/></div><div data-type-role="flex-column" id="i07c5f-2" class="gjs-plg-flex-column"><h1 id="iqwc4w-2">John Smith</h1><div id="iglipj-2"><div>Business Manger</div></div></div></div></div></div><div class="swiper-pagination"></div></div><div id="i6db76-2-2" class="swiper"><div id="izgmlg-2-2" class="swiper-wrapper"><div id="i77fno-2-2" class="swiper-slide"><img id="isy0yt-2-2" src="https://cdn.grapesjs.com/workspaces/cmc4xkttt0df99wj7woejj4g8/assets/53c900a0-71db-48dc-bd62-92b75219bdca__left-quote-copy.png"/><div data-type-role="flex-row" id="iuw4d9-2-2" class="gjs-plg-flex-row"><div data-type-role="flex-column" id="ichuql-2-2" class="gjs-plg-flex-column"><div data-type-icon id="idthqd-2-2" class="gjs-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M12.865 2.996a1 1 0 0 0-1.73 0L8.421 7.674a1.25 1.25 0 0 1-.894.608L2.44 9.05c-.854.13-1.154 1.208-.488 1.76l3.789 3.138c.35.291.515.75.43 1.197L5.18 20.35a1 1 0 0 0 1.448 1.072l4.79-2.522a1.25 1.25 0 0 1 1.164 0l4.79 2.522a1 1 0 0 0 1.448-1.072l-.991-5.205a1.25 1.25 0 0 1 .43-1.197l3.79-3.139c.665-.55.365-1.63-.49-1.759l-5.085-.768a1.25 1.25 0 0 1-.895-.608z"></path></svg></div><div data-type-icon id="ilxg4t-2-2" class="gjs-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M12.865 2.996a1 1 0 0 0-1.73 0L8.421 7.674a1.25 1.25 0 0 1-.894.608L2.44 9.05c-.854.13-1.154 1.208-.488 1.76l3.789 3.138c.35.291.515.75.43 1.197L5.18 20.35a1 1 0 0 0 1.448 1.072l4.79-2.522a1.25 1.25 0 0 1 1.164 0l4.79 2.522a1 1 0 0 0 1.448-1.072l-.991-5.205a1.25 1.25 0 0 1 .43-1.197l3.79-3.139c.665-.55.365-1.63-.49-1.759l-5.085-.768a1.25 1.25 0 0 1-.895-.608z"></path></svg></div><div data-type-icon id="icff55-2-2" class="gjs-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M12.865 2.996a1 1 0 0 0-1.73 0L8.421 7.674a1.25 1.25 0 0 1-.894.608L2.44 9.05c-.854.13-1.154 1.208-.488 1.76l3.789 3.138c.35.291.515.75.43 1.197L5.18 20.35a1 1 0 0 0 1.448 1.072l4.79-2.522a1.25 1.25 0 0 1 1.164 0l4.79 2.522a1 1 0 0 0 1.448-1.072l-.991-5.205a1.25 1.25 0 0 1 .43-1.197l3.79-3.139c.665-.55.365-1.63-.49-1.759l-5.085-.768a1.25 1.25 0 0 1-.895-.608z"></path></svg></div><div data-type-icon id="igvvb3-2-2" class="gjs-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M12.865 2.996a1 1 0 0 0-1.73 0L8.421 7.674a1.25 1.25 0 0 1-.894.608L2.44 9.05c-.854.13-1.154 1.208-.488 1.76l3.789 3.138c.35.291.515.75.43 1.197L5.18 20.35a1 1 0 0 0 1.448 1.072l4.79-2.522a1.25 1.25 0 0 1 1.164 0l4.79 2.522a1 1 0 0 0 1.448-1.072l-.991-5.205a1.25 1.25 0 0 1 .43-1.197l3.79-3.139c.665-.55.365-1.63-.49-1.759l-5.085-.768a1.25 1.25 0 0 1-.895-.608z"></path></svg></div><div data-type-icon id="irh3oi-2-2" class="gjs-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M12.865 2.996a1 1 0 0 0-1.73 0L8.421 7.674a1.25 1.25 0 0 1-.894.608L2.44 9.05c-.854.13-1.154 1.208-.488 1.76l3.789 3.138c.35.291.515.75.43 1.197L5.18 20.35a1 1 0 0 0 1.448 1.072l4.79-2.522a1.25 1.25 0 0 1 1.164 0l4.79 2.522a1 1 0 0 0 1.448-1.072l-.991-5.205a1.25 1.25 0 0 1 .43-1.197l3.79-3.139c.665-.55.365-1.63-.49-1.759l-5.085-.768a1.25 1.25 0 0 1-.895-.608z"></path></svg></div></div><div data-type-role="flex-column" id="ikx6dp-2-2" class="gjs-plg-flex-column"><div id="i4seo1-2-2"><div>Oct 12, 2024</div></div></div></div><div id="i7v2kk-2-2"><div>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</div></div><div data-type-role="flex-row" id="ie90l8-2-2" class="gjs-plg-flex-row"><div data-type-role="flex-column" id="invfkw-2-2" class="gjs-plg-flex-column"><img id="iu6k0h-3-2" src="https://cdn.grapesjs.com/workspaces/cmc4xkttt0df99wj7woejj4g8/assets/42b07d54-cdbd-4df6-bb1c-675f9c2332e1__clip-path-group-1.png"/></div><div data-type-role="flex-column" id="ijyehk-2-2" class="gjs-plg-flex-column"><h1 id="igxjr4-2-2">John Smith</h1><div id="iyx9su-2-2"><div>Business Manger</div></div></div></div></div><div id="isn353-2-2" class="swiper-slide"><img id="i764gi-2-2" src="https://cdn.grapesjs.com/workspaces/cmc4xkttt0df99wj7woejj4g8/assets/53c900a0-71db-48dc-bd62-92b75219bdca__left-quote-copy.png"/><div data-type-role="flex-row" id="i5fkqc-2-2" class="gjs-plg-flex-row"><div data-type-role="flex-column" id="iqhl89-2-2" class="gjs-plg-flex-column"><div data-type-icon id="ib67ag-2-2" class="gjs-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M12.865 2.996a1 1 0 0 0-1.73 0L8.421 7.674a1.25 1.25 0 0 1-.894.608L2.44 9.05c-.854.13-1.154 1.208-.488 1.76l3.789 3.138c.35.291.515.75.43 1.197L5.18 20.35a1 1 0 0 0 1.448 1.072l4.79-2.522a1.25 1.25 0 0 1 1.164 0l4.79 2.522a1 1 0 0 0 1.448-1.072l-.991-5.205a1.25 1.25 0 0 1 .43-1.197l3.79-3.139c.665-.55.365-1.63-.49-1.759l-5.085-.768a1.25 1.25 0 0 1-.895-.608z"></path></svg></div><div data-type-icon id="ij4a53-2-2" class="gjs-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M12.865 2.996a1 1 0 0 0-1.73 0L8.421 7.674a1.25 1.25 0 0 1-.894.608L2.44 9.05c-.854.13-1.154 1.208-.488 1.76l3.789 3.138c.35.291.515.75.43 1.197L5.18 20.35a1 1 0 0 0 1.448 1.072l4.79-2.522a1.25 1.25 0 0 1 1.164 0l4.79 2.522a1 1 0 0 0 1.448-1.072l-.991-5.205a1.25 1.25 0 0 1 .43-1.197l3.79-3.139c.665-.55.365-1.63-.49-1.759l-5.085-.768a1.25 1.25 0 0 1-.895-.608z"></path></svg></div><div data-type-icon id="i5czjt-2-2" class="gjs-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M12.865 2.996a1 1 0 0 0-1.73 0L8.421 7.674a1.25 1.25 0 0 1-.894.608L2.44 9.05c-.854.13-1.154 1.208-.488 1.76l3.789 3.138c.35.291.515.75.43 1.197L5.18 20.35a1 1 0 0 0 1.448 1.072l4.79-2.522a1.25 1.25 0 0 1 1.164 0l4.79 2.522a1 1 0 0 0 1.448-1.072l-.991-5.205a1.25 1.25 0 0 1 .43-1.197l3.79-3.139c.665-.55.365-1.63-.49-1.759l-5.085-.768a1.25 1.25 0 0 1-.895-.608z"></path></svg></div><div data-type-icon id="i7a14j-2-2" class="gjs-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M12.865 2.996a1 1 0 0 0-1.73 0L8.421 7.674a1.25 1.25 0 0 1-.894.608L2.44 9.05c-.854.13-1.154 1.208-.488 1.76l3.789 3.138c.35.291.515.75.43 1.197L5.18 20.35a1 1 0 0 0 1.448 1.072l4.79-2.522a1.25 1.25 0 0 1 1.164 0l4.79 2.522a1 1 0 0 0 1.448-1.072l-.991-5.205a1.25 1.25 0 0 1 .43-1.197l3.79-3.139c.665-.55.365-1.63-.49-1.759l-5.085-.768a1.25 1.25 0 0 1-.895-.608z"></path></svg></div><div data-type-icon id="idnxvs-2-2" class="gjs-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M12.865 2.996a1 1 0 0 0-1.73 0L8.421 7.674a1.25 1.25 0 0 1-.894.608L2.44 9.05c-.854.13-1.154 1.208-.488 1.76l3.789 3.138c.35.291.515.75.43 1.197L5.18 20.35a1 1 0 0 0 1.448 1.072l4.79-2.522a1.25 1.25 0 0 1 1.164 0l4.79 2.522a1 1 0 0 0 1.448-1.072l-.991-5.205a1.25 1.25 0 0 1 .43-1.197l3.79-3.139c.665-.55.365-1.63-.49-1.759l-5.085-.768a1.25 1.25 0 0 1-.895-.608z"></path></svg></div></div><div data-type-role="flex-column" id="igzyla-2-2" class="gjs-plg-flex-column"><div id="imbtwi-2-2"><div>Oct 12, 2024</div></div></div></div><div id="iv82k4-2-2"><div>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed&nbsp;do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</div></div><div data-type-role="flex-row" id="in3iwl-2-2" class="gjs-plg-flex-row"><div data-type-role="flex-column" id="is15zf-2-2" class="gjs-plg-flex-column"><img id="iu6k0h-2-3-2" src="https://cdn.grapesjs.com/workspaces/cmc4xkttt0df99wj7woejj4g8/assets/42b07d54-cdbd-4df6-bb1c-675f9c2332e1__clip-path-group-1.png"/></div><div data-type-role="flex-column" id="i42ifb-2-2" class="gjs-plg-flex-column"><h1 id="ii9u83-2-2">John Smith</h1><div id="iqkpbh-2-2"><div>Business Manger</div></div></div></div></div><div id="iqvpih-2-2" class="swiper-slide"><img id="im1rti-2-2" src="https://cdn.grapesjs.com/workspaces/cmc4xkttt0df99wj7woejj4g8/assets/53c900a0-71db-48dc-bd62-92b75219bdca__left-quote-copy.png"/><div data-type-role="flex-row" id="i2woph-2-2" class="gjs-plg-flex-row"><div data-type-role="flex-column" id="il5iob-2-2" class="gjs-plg-flex-column"><div data-type-icon id="iu2o1b-2-2" class="gjs-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M12.865 2.996a1 1 0 0 0-1.73 0L8.421 7.674a1.25 1.25 0 0 1-.894.608L2.44 9.05c-.854.13-1.154 1.208-.488 1.76l3.789 3.138c.35.291.515.75.43 1.197L5.18 20.35a1 1 0 0 0 1.448 1.072l4.79-2.522a1.25 1.25 0 0 1 1.164 0l4.79 2.522a1 1 0 0 0 1.448-1.072l-.991-5.205a1.25 1.25 0 0 1 .43-1.197l3.79-3.139c.665-.55.365-1.63-.49-1.759l-5.085-.768a1.25 1.25 0 0 1-.895-.608z"></path></svg></div><div data-type-icon id="ir3iq3-2-2" class="gjs-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M12.865 2.996a1 1 0 0 0-1.73 0L8.421 7.674a1.25 1.25 0 0 1-.894.608L2.44 9.05c-.854.13-1.154 1.208-.488 1.76l3.789 3.138c.35.291.515.75.43 1.197L5.18 20.35a1 1 0 0 0 1.448 1.072l4.79-2.522a1.25 1.25 0 0 1 1.164 0l4.79 2.522a1 1 0 0 0 1.448-1.072l-.991-5.205a1.25 1.25 0 0 1 .43-1.197l3.79-3.139c.665-.55.365-1.63-.49-1.759l-5.085-.768a1.25 1.25 0 0 1-.895-.608z"></path></svg></div><div data-type-icon id="it1gc7-2-2" class="gjs-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M12.865 2.996a1 1 0 0 0-1.73 0L8.421 7.674a1.25 1.25 0 0 1-.894.608L2.44 9.05c-.854.13-1.154 1.208-.488 1.76l3.789 3.138c.35.291.515.75.43 1.197L5.18 20.35a1 1 0 0 0 1.448 1.072l4.79-2.522a1.25 1.25 0 0 1 1.164 0l4.79 2.522a1 1 0 0 0 1.448-1.072l-.991-5.205a1.25 1.25 0 0 1 .43-1.197l3.79-3.139c.665-.55.365-1.63-.49-1.759l-5.085-.768a1.25 1.25 0 0 1-.895-.608z"></path></svg></div><div data-type-icon id="iqismi-2-2" class="gjs-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M12.865 2.996a1 1 0 0 0-1.73 0L8.421 7.674a1.25 1.25 0 0 1-.894.608L2.44 9.05c-.854.13-1.154 1.208-.488 1.76l3.789 3.138c.35.291.515.75.43 1.197L5.18 20.35a1 1 0 0 0 1.448 1.072l4.79-2.522a1.25 1.25 0 0 1 1.164 0l4.79 2.522a1 1 0 0 0 1.448-1.072l-.991-5.205a1.25 1.25 0 0 1 .43-1.197l3.79-3.139c.665-.55.365-1.63-.49-1.759l-5.085-.768a1.25 1.25 0 0 1-.895-.608z"></path></svg></div><div data-type-icon id="itsuhf-2-2" class="gjs-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M12.865 2.996a1 1 0 0 0-1.73 0L8.421 7.674a1.25 1.25 0 0 1-.894.608L2.44 9.05c-.854.13-1.154 1.208-.488 1.76l3.789 3.138c.35.291.515.75.43 1.197L5.18 20.35a1 1 0 0 0 1.448 1.072l4.79-2.522a1.25 1.25 0 0 1 1.164 0l4.79 2.522a1 1 0 0 0 1.448-1.072l-.991-5.205a1.25 1.25 0 0 1 .43-1.197l3.79-3.139c.665-.55.365-1.63-.49-1.759l-5.085-.768a1.25 1.25 0 0 1-.895-.608z"></path></svg></div></div><div data-type-role="flex-column" id="i3btjg-2-2" class="gjs-plg-flex-column"><div id="iwenca-2-2"><div>Oct 12, 2024</div></div></div></div><div id="ipl4jq-2-2"><div>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</div></div><div data-type-role="flex-row" id="i2c8w2-2-2" class="gjs-plg-flex-row"><div data-type-role="flex-column" id="i14z8d-2-2" class="gjs-plg-flex-column"><img id="iu6k0h-2-2-2-2" src="https://cdn.grapesjs.com/workspaces/cmc4xkttt0df99wj7woejj4g8/assets/42b07d54-cdbd-4df6-bb1c-675f9c2332e1__clip-path-group-1.png"/></div><div data-type-role="flex-column" id="i07c5f-2-2" class="gjs-plg-flex-column"><h1 id="iqwc4w-2-2">John Smith</h1><div id="iglipj-2-2"><div>Business Manger</div></div></div></div></div></div><div class="swiper-pagination"></div></div></div></section><section id="i813m2" class="gjs-section"><div id="iga1tm" class="gjs-container"><div data-type-role="flex-row" id="im7qbd" class="gjs-plg-flex-row"><div data-type-role="flex-column" id="isd4xg" class="gjs-plg-flex-column"><img id="ikz9qq" src="https://cdn.grapesjs.com/workspaces/cmc4xkttt0df99wj7woejj4g8/assets/32a9d8e8-bd51-42d1-ae8a-5beb5fd9bc80__layer-1-copy-2.png"/><div id="i090fs"><div>Insert youLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt&nbsp;ut labore et dolorer text here</div></div><div data-type-role="flex-row" id="ictq2f" class="gjs-plg-flex-row"><div data-type-role="flex-column" id="ilgydq" class="gjs-plg-flex-column"><a id="i2prq9" href="link" class="gjs-link-box"><div data-type-icon id="i88mfy" class="gjs-icon-footer"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1231.051 1000"><path fill="currentColor" d="M1231.051 118.453q-51.422 76.487-126.173 130.403q.738 14.46.738 32.687q0 101.273-29.53 202.791q-29.53 101.519-90.215 194.343T841.297 843.145T639.62 957.395t-252.474 42.606q-210.2 0-387.147-113.493q31.406 3.495 60.242 3.495q175.605 0 313.687-108.177q-81.877-1.501-146.654-50.409q-64.777-48.907-89.156-124.988q24.097 4.59 47.566 4.59q33.782 0 66.482-8.812q-87.378-17.5-144.975-87.04q-57.595-69.539-57.595-160.523v-3.126q53.633 29.696 114.416 31.592q-51.762-34.508-82.079-89.999q-30.319-55.491-30.319-120.102q0-68.143 34.151-126.908q95.022 116.607 230.278 186.392q135.258 69.786 290.212 77.514q-6.609-27.543-6.621-57.485q0-104.546 73.994-178.534Q747.623 0 852.169 0q109.456 0 184.392 79.711q85.618-16.959 160.333-61.349q-28.785 90.59-110.933 139.768q75.502-8.972 145.088-39.677z">
+  </path></svg></div></a></div><div data-type-role="flex-column" id="ib2s5j" class="gjs-plg-flex-column"><a id="i2prq9-2" href="link" class="gjs-link-box"><div data-type-icon id="ibkkgi" class="gjs-icon-footer"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000"><path fill="currentColor" d="M603.575 510.854c0-54.044-44.172-98.02-98.463-98.02c-54.285 0-98.455 43.977-98.455 98.02c0 54.058 44.17 98.026 98.455 98.026c54.291 0 98.463-43.968 98.463-98.026M749.855.602H250.142C112.465.602.456 112.124.456 249.199v69.266h367.413c38.769-27.496 86.118-43.739 137.243-43.739s98.48 16.243 137.251 43.739H999.54v-69.266C999.54 112.123 887.531.602 749.855.602m101.12 236.435c0 15.191-12.48 27.622-27.743 27.622h-85.72c-15.261 0-27.743-12.431-27.743-27.622v-85.352c0-15.19 12.481-27.622 27.743-27.622h85.72c15.262 0 27.743 12.43 27.743 27.622zM742.287 510.854c0 130.215-106.402 236.133-237.176 236.133c-130.778 0-237.17-105.918-237.17-236.133c0-35.848 8.11-69.845 22.532-100.318H.456v340.263c0 137.085 112.009 248.597 249.686 248.597h499.714c137.676 0 249.685-111.513 249.685-248.597V410.536H719.755c14.422 30.473 22.532 64.47 22.532 100.318"></path></svg></div></a></div><div data-type-role="flex-column" id="icyt3t" class="gjs-plg-flex-column"><a id="i2prq9-2-3" href="link" class="gjs-link-box"><div data-type-icon id="iw1hh9" class="gjs-icon-footer"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000"><path fill="currentColor" d="M196.064.25C88.347.25.187 88.408.187 196.127v607.841c0 107.717 88.158 195.845 195.877 195.845h607.841c107.718 0 195.845-88.127 195.845-195.845V196.127C999.75 88.41 911.623.25 803.905.25zm49.266 164.948c51.648 0 83.461 33.906 84.443 78.475c0 43.585-32.797 78.444-85.442 78.444h-.969c-50.665 0-83.412-34.857-83.412-78.444c0-44.568 33.738-78.475 85.379-78.475zm445.08 208.31c99.329 0 173.79 64.922 173.79 204.436v260.449H713.247V595.406c0-61.06-21.847-102.718-76.476-102.718c-41.704 0-66.562 28.078-77.476 55.202c-3.987 9.704-4.967 23.257-4.967 36.832v253.671H403.375s1.981-411.613 0-454.233h150.984v64.324c20.06-30.95 55.942-74.977 136.051-74.977zm-521.556 10.685h150.953v454.202H168.854z"></path></svg></div></a></div><div data-type-role="flex-column" id="idfbmh" class="gjs-plg-flex-column"><a id="i2prq9-2-2" href="link" class="gjs-link-box"><div data-type-icon id="ibku8l" class="gjs-icon-footer"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000"><path fill="currentColor" d="M182.594 0C81.445 0 0 81.445 0 182.594v634.813c0 101.149 81.445 182.594 182.594 182.594h344.063V609.063H423.282v-140.75h103.375v-120.25c0-94.475 61.079-181.219 201.781-181.219c56.968 0 99.094 5.469 99.094 5.469l-3.313 131.438s-42.963-.406-89.844-.406c-50.739 0-58.875 23.378-58.875 62.188v102.781h152.75l-6.656 140.75H675.5v390.938h141.906c101.149 0 182.594-81.445 182.594-182.594V182.595C1000 81.446 918.555.001 817.406.001H182.593z">
+  </path></svg></div></a></div></div></div><div data-type-role="flex-column" id="i54fhu" class="gjs-plg-flex-column"><h1 id="i2mavs">Quick Links</h1><div id="i3r7hk" class="gjs-custom-code"><a href="#" id="iwompg">About Us</a></div><div id="im578f" class="gjs-custom-code"><a href="#" id="i604sl">Our Services</a></div><div id="iha7kg" class="gjs-custom-code"><a href="#" id="iv519k">Client Testimonials</a></div></div><div data-type-role="flex-column" id="ieu0fq" class="gjs-plg-flex-column"><h1 id="ii6je4">Solution</h1><div id="ifjxwi" class="gjs-custom-code"><a href="#" id="ifixji">Blog Articles</a></div><div id="ilgquw" class="gjs-custom-code"><a href="#" id="it5k0w">Contact Us</a></div><div id="iw87fh" class="gjs-custom-code"><a href="#" id="iggpvk">FAQs</a></div></div><div data-type-role="flex-column" id="iibmez" class="gjs-plg-flex-column"><h1 id="ihgrjy">Address</h1><div data-type-role="flex-row" id="iy5f2k" class="gjs-plg-flex-row"><div data-type-role="flex-column" id="il1irg" class="gjs-plg-flex-column"><div data-type-icon id="ikzu5p" class="gjs-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M8.75 10a3.25 3.25 0 1 1 6.5 0a3.25 3.25 0 0 1-6.5 0"></path><path fill="currentColor" fill-rule="evenodd" d="M3.774 8.877a8.04 8.04 0 0 1 8.01-7.377h.432a8.04 8.04 0 0 1 8.01 7.377a8.7 8.7 0 0 1-1.933 6.217L13.5 20.956a1.937 1.937 0 0 1-3 0l-4.792-5.862a8.7 8.7 0 0 1-1.934-6.217M12 5.25a4.75 4.75 0 1 0 0 9.5a4.75 4.75 0 0 0 0-9.5" clip-rule="evenodd"></path></svg></div></div><div data-type-role="flex-column" id="ixy966" class="gjs-plg-flex-column"><div id="i4abda"><div>Placeholder Road #06</div></div></div></div><div data-type-role="flex-row" id="ianbs1" class="gjs-plg-flex-row"><div data-type-role="flex-column" id="ixe1qj" class="gjs-plg-flex-column"><div data-type-icon id="ixs69u" class="gjs-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36"><path fill="currentColor" d="M15.22 20.64a20.4 20.4 0 0 0 7.4 4.79l3.77-3a.67.67 0 0 1 .76 0l7 4.51a2 2 0 0 1 .33 3.18l-3.28 3.24a4 4 0 0 1-3.63 1.07a35.1 35.1 0 0 1-17.15-9A33.8 33.8 0 0 1 1.15 8.6a3.78 3.78 0 0 1 1.1-3.55l3.4-3.28a2 2 0 0 1 3.12.32L13.43 9a.63.63 0 0 1 0 .75l-3.07 3.69a19.75 19.75 0 0 0 4.86 7.2" class="clr-i-solid clr-i-solid-path-1"></path><path fill="none" d="M0 0h36v36H0z"></path></svg></div></div><div data-type-role="flex-column" id="idkxz3" class="gjs-plg-flex-column"><div id="ixc29o"><div>+123 456 789</div></div></div></div><div data-type-role="flex-row" id="i7eiby" class="gjs-plg-flex-row"><div data-type-role="flex-column" id="i21e25" class="gjs-plg-flex-column"><div data-type-icon id="i172rx" class="gjs-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M19.807 5.687c.298.245.546.55.727.897a.236.236 0 0 1-.091.307l-6.266 3.88a4.25 4.25 0 0 1-4.4.045L3.47 7.088a.236.236 0 0 1-.103-.293a2.9 2.9 0 0 1 .823-1.106v-.003l.012-.007a2.9 2.9 0 0 1 .894-.496l4.11-2.284a5.75 5.75 0 0 1 5.585 0l4.105 2.28c.334.114.641.286.908.505z"></path><path fill="currentColor" d="M2.989 8.954a.248.248 0 0 1 .373-.187l5.653 3.34a5.75 5.75 0 0 0 5.951-.061l5.645-3.495a.248.248 0 0 1 .377.183a30.4 30.4 0 0 1-.161 7.78a2.89 2.89 0 0 1-2.606 2.447l-1.51.131a54.4 54.4 0 0 1-9.422 0l-1.51-.131a2.89 2.89 0 0 1-2.606-2.448a30.4 30.4 0 0 1-.184-7.559"></path></svg></div></div><div data-type-role="flex-column" id="i6dn23" class="gjs-plg-flex-column"><div id="ixgfyx"><div>support@placeholder.com</div></div></div></div></div></div><div data-type-role="flex-row" id="i1sawd" class="gjs-plg-flex-row"><div data-type-role="flex-column" id="iswajl" class="gjs-plg-flex-column"><div id="io627g" class="gjs-custom-code"><p id="i29e1r">© 2025 Designwise. All rights reserved.</p></div></div><div data-type-role="flex-column" id="iy7g33" class="gjs-plg-flex-column"><div id="i7lpdz"><div>Privacy Policy</div></div><div id="iiy7o2"><div>Terms of Services</div></div><div id="ijf1f5"><div>Cookies Settings</div></div></div></div></div></section><script>var items = document.querySelectorAll('#ikifhy');
+          for (var i = 0, len = items.length; i < len; i++) {
+            (function(){
+var n,t=this,e='gjs-collapse',a='max-height',o=0,i=function(){var n=document.createElement('void'),t={transition:'transitionend',OTransition:'oTransitionEnd',MozTransition:'transitionend',WebkitTransition:'webkitTransitionEnd'};for(var e in t)if(void 0!==n.style[e])return t[e]}(),r=function(n){o=1;var t=function(n){var t=window.getComputedStyle(n),e=t.display,o=parseInt(t[a]);if('none'!==e&&0!==o)return n.offsetHeight;n.style.height='auto',n.style.display='block',n.style.position='absolute',n.style.visibility='hidden';var i=n.offsetHeight;return n.style.height='',n.style.display='',n.style.position='',n.style.visibility='',i}(n),e=n.style;e.display='block',e.transition="".concat(a," 0.25s ease-in-out"),e.overflowY='hidden',''==e[a]&&(e[a]=0),0==parseInt(e[a])?(e[a]='0',setTimeout((function(){e[a]=t+'px'}),10)):e[a]='0'};e in t||t.addEventListener('click',(function(e){if(e.preventDefault(),!o){var l=t.closest("[data-gjs=navbar]"),c=null==l?void 0:l.querySelector("[data-gjs=navbar-items]");c&&r(c),n||(null==c||c.addEventListener(i,(function(){o=0;var n=c.style;0==parseInt(n[a])&&(n.display='',n[a]='')})),n=1)}})),t[e]=1
+}.bind(items[i]))();
+          }
+          var props = {"i6db76":{"cdnScript":"https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js","cdnStyle":"https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css","actions":"","vertical":false,"loop":false,"freeMode":false,"autoHeight":true,"navigation":"","initialSlide":"0","speed":300,"effect":"slide","slidesPerView":3,"slidesPerGroup":1,"spaceBetween":10,"slidesOffsetBefore":0,"slidesOffsetAfter":0,"centeredSlides":false,"crossFade":false,"cubeEffectShadow":true,"cubeEffectSlideShadows":true,"cubeEffectShadowOffset":20,"cubeEffectShadowScale":0.94,"coverflowEffectDepth":100,"coverflowEffectModifier":1,"coverflowEffectRotate":50,"coverflowEffectScale":1,"coverflowEffectStretch":0,"coverflowEffectSlideShadows":true,"flipEffectLimitRotation":true,"flipEffectSlideShadows":true,"cardsEffectPerSlideOffset":8,"cardsEffectPerSlideRotate":2,"cardsEffectRotate":true,"cardsEffectSlideShadows":true,"autoplay":false,"autoplayDelay":3000,"autoplayDisableOnInteraction":true,"autoplayWaitForTransition":true,"autoplayPauseOnMouseEnter":false,"autoplayReverseDirection":false,"autoplayStopOnLastSlide":false,"pagination":"","dynamicBullets":false,"clickableBullets":true,"progressbarOpposite":false,"scrollbar":"","scrollbarDraggable":false,"scrollbarHide":true,"parallax":false,"mobile":false,"mobileBreakpoint":460,"mobileSlidesPerView":1,"mobileSlidesPerGroup":1,"mobileSpaceBetween":0,"tablet":false,"tabletBreakpoint":991,"tabletSlidesPerView":1,"tabletSlidesPerGroup":1,"tabletSpaceBetween":0,"allowTouchMove":true,"grabCursor":false},"i6db76-2":{"cdnScript":"https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js","cdnStyle":"https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css","actions":"","vertical":false,"loop":false,"freeMode":false,"autoHeight":true,"navigation":"","initialSlide":"0","speed":300,"effect":"slide","slidesPerView":2,"slidesPerGroup":1,"spaceBetween":10,"slidesOffsetBefore":0,"slidesOffsetAfter":0,"centeredSlides":false,"crossFade":false,"cubeEffectShadow":true,"cubeEffectSlideShadows":true,"cubeEffectShadowOffset":20,"cubeEffectShadowScale":0.94,"coverflowEffectDepth":100,"coverflowEffectModifier":1,"coverflowEffectRotate":50,"coverflowEffectScale":1,"coverflowEffectStretch":0,"coverflowEffectSlideShadows":true,"flipEffectLimitRotation":true,"flipEffectSlideShadows":true,"cardsEffectPerSlideOffset":8,"cardsEffectPerSlideRotate":2,"cardsEffectRotate":true,"cardsEffectSlideShadows":true,"autoplay":false,"autoplayDelay":3000,"autoplayDisableOnInteraction":true,"autoplayWaitForTransition":true,"autoplayPauseOnMouseEnter":false,"autoplayReverseDirection":false,"autoplayStopOnLastSlide":false,"pagination":"","dynamicBullets":false,"clickableBullets":true,"progressbarOpposite":false,"scrollbar":"","scrollbarDraggable":false,"scrollbarHide":true,"parallax":false,"mobile":false,"mobileBreakpoint":460,"mobileSlidesPerView":1,"mobileSlidesPerGroup":1,"mobileSpaceBetween":0,"tablet":false,"tabletBreakpoint":991,"tabletSlidesPerView":1,"tabletSlidesPerGroup":1,"tabletSpaceBetween":0,"allowTouchMove":true,"grabCursor":false},"i6db76-2-2":{"cdnScript":"https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js","cdnStyle":"https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css","actions":"","vertical":false,"loop":false,"freeMode":false,"autoHeight":true,"navigation":"","initialSlide":"0","speed":300,"effect":"slide","slidesPerView":1,"slidesPerGroup":1,"spaceBetween":10,"slidesOffsetBefore":0,"slidesOffsetAfter":0,"centeredSlides":false,"crossFade":false,"cubeEffectShadow":true,"cubeEffectSlideShadows":true,"cubeEffectShadowOffset":20,"cubeEffectShadowScale":0.94,"coverflowEffectDepth":100,"coverflowEffectModifier":1,"coverflowEffectRotate":50,"coverflowEffectScale":1,"coverflowEffectStretch":0,"coverflowEffectSlideShadows":true,"flipEffectLimitRotation":true,"flipEffectSlideShadows":true,"cardsEffectPerSlideOffset":8,"cardsEffectPerSlideRotate":2,"cardsEffectRotate":true,"cardsEffectSlideShadows":true,"autoplay":false,"autoplayDelay":3000,"autoplayDisableOnInteraction":true,"autoplayWaitForTransition":true,"autoplayPauseOnMouseEnter":false,"autoplayReverseDirection":false,"autoplayStopOnLastSlide":false,"pagination":"","dynamicBullets":false,"clickableBullets":true,"progressbarOpposite":false,"scrollbar":"","scrollbarDraggable":false,"scrollbarHide":true,"parallax":false,"mobile":false,"mobileBreakpoint":460,"mobileSlidesPerView":1,"mobileSlidesPerGroup":1,"mobileSpaceBetween":0,"tablet":false,"tabletBreakpoint":991,"tabletSlidesPerView":1,"tabletSlidesPerGroup":1,"tabletSpaceBetween":0,"allowTouchMove":true,"grabCursor":false}};
+          var ids = Object.keys(props).map(function(id) { return '#'+id }).join(',');
+          var els = document.querySelectorAll(ids);
+          for (var i = 0, len = els.length; i < len; i++) {
+            var el = els[i];
+            (function(t){const s=this,R=window,w=s.__onLoad,D=s.__activeSlide,F=s.__inPreview,{cdnScript:W,cdnStyle:q,slidesPerView:z}=t||{},r=m=>isNaN(m)?void 0:parseFloat(m),ee=()=>{const m={loop:t.loop,speed:t.speed,initialSlide:t.initialSlide,direction:t.vertical?"vertical":"horizontal",effect:t.effect,freeMode:t.freeMode,parallax:t.parallax,autoHeight:t.autoHeight,allowTouchMove:t.allowTouchMove,grabCursor:t.grabCursor,simulateTouch:!0,breakpoints:{},slidesPerView:isNaN(z)?z:r(z),slidesPerGroup:r(t.slidesPerGroup),spaceBetween:r(t.spaceBetween),slidesOffsetBefore:r(t.slidesOffsetBefore),slidesOffsetAfter:r(t.slidesOffsetAfter),centeredSlides:t.centeredSlides,fadeEffect:{crossFade:t.crossFade},cubeEffect:{shadow:t.cubeEffectShadow,slideShadows:t.cubeEffectSlideShadows,shadowOffset:r(t.cubeEffectShadowOffset),shadowScale:r(t.cubeEffectShadowScale)},coverflowEffect:{depth:r(t.coverflowEffectDepth),modifier:r(t.coverflowEffectModifier),rotate:r(t.coverflowEffectRotate),scale:r(t.coverflowEffectScale),stretch:r(t.coverflowEffectStretch),slideShadows:t.coverflowEffectSlideShadows},flipEffect:{limitRotation:t.flipEffectLimitRotation,slideShadows:t.flipEffectSlideShadows},cardsEffect:{perSlideOffset:r(t.cardsEffectPerSlideOffset),perSlideRotate:r(t.cardsEffectPerSlideRotate),rotate:t.cardsEffectRotate,slideShadows:t.cardsEffectSlideShadows},navigation:{nextEl:s.querySelector(".swiper-button-next"),prevEl:s.querySelector(".swiper-button-prev")},pagination:{type:t.pagination||"bullets",dynamicBullets:t.dynamicBullets,clickable:t.clickableBullets,progressbarOpposite:t.progressbarOpposite,el:s.querySelector(".swiper-pagination")},scrollbar:{el:s.querySelector(".swiper-scrollbar"),draggable:t.scrollbarDraggable,hide:t.scrollbarHide},autoplay:t.autoplay&&{delay:t.autoplayDelay,disableOnInteraction:t.autoplayDisableOnInteraction,pauseOnMouseEnter:t.autoplayPauseOnMouseEnter,reverseDirection:t.autoplayReverseDirection,stopOnLastSlide:t.autoplayStopOnLastSlide,waitForTransition:t.autoplayWaitForTransition}};if(t.tablet){const{tabletBreakpoint:O,tabletSlidesPerView:g}=t,_=r(O);m.breakpoints[_]={slidesPerView:isNaN(g)?g:r(g),slidesPerGroup:r(t.tabletSlidesPerGroup),spaceBetween:r(t.tabletSpaceBetween)}}if(t.mobile){const{mobileBreakpoint:O,mobileSlidesPerView:g}=t,_=r(O);m.breakpoints[_]={slidesPerView:isNaN(g)?g:r(g),slidesPerGroup:r(t.mobileSlidesPerGroup),spaceBetween:r(t.mobileSpaceBetween)}}w&&!F&&(m.simulateTouch=!1),D&&(m.initialSlide=D);const H=new R.Swiper(s,m);w==null||w(H)};if(R.Swiper)ee();else{const{head:m}=document,H=Array.isArray(W)?[...W]:[W],O=Array.isArray(q)?[...q]:[q],g=P=>{if(P.length){const y=document.createElement("link");y.href=P.shift(),y.rel="stylesheet",m.appendChild(y),g(P)}},_=P=>{if(P.length){const y=document.createElement("script");y.src=P.shift(),y.onerror=y.onload=_.bind(null,P),m.appendChild(y)}else ee()};g(O),_(H)}}.bind(el))(props[el.id]);
+          }</script></body>
 </html>
