@@ -42,7 +42,7 @@ jobs:
           action: "upload"
           app_location: "/" # Adjust if your app is in a subfolder
           api_location: ""  # Optional
-          output_location: "build" # Must match your actual build output folder
+          output_location: "out" # Must match your actual build output folder
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
